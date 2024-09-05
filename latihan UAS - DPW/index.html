@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Validasi Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form action="index.html" method="GET" id="form-pesan-tiket">
+        <label for="nama"> Nama </label>
+        <input type="text" name="Nama" id="nama" />
+
+        <label>Jenis Kelamin</label>
+        <div class="container-gender">
+          <label for="laki-laki">Laki-Laki</label>
+          <input type="radio" name="jenis-kelamin" id="laki-laki" />
+          <label for="perempuan">Perempuan</label>
+          <input type="radio" name="jenis-kelamin" id="perempuan" />
+        </div>
+
+        <label for="email"> Email </label>
+        <input type="text" name="Email" id="email" />
+
+        <label for="telepon"> No. Telepon </label>
+        <input type="text" name="No-Telepon" id="telepon" />
+
+        <label for="pilih-tiket">Pilih Tiket</label>
+        <select id="pilih-tiket">
+          <option value="opsi-1">Opsi 1</option>
+          <option value="opsi-2">Opsi 2</option>
+          <option value="opsi-3">Opsi 3</option>
+        </select>
+
+        <label for="jumlah-tiket"> Jumlah Tiket </label>
+        <input type="text" name="Jumlah-Tiket" id="jumlah-tiket" />
+
+        <label for="kode-voucher"> Kode Voucher </label>
+        <input type="text" name="Kode-Voucher" id="kode-voucher" />
+
+        <label for="pesan-tambahan">Pesan Tambahan</label>
+        <textarea id="pesan-tambahan"> </textarea>
+
+        <div class="persetujuan">
+          <label for="persetujuan">Setujui aturan dan kebijakan</label>
+          <input type="checkbox" name="Persetujuan" id="persetujuan" />
+        </div>
+
+        <div class="tombol">
+          <button type="submit" id="kirim">Kirim</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>
