@@ -6,8 +6,6 @@
     <title>Tambah Buku</title>
 </head>
 <body>
-    <h2>Fitur tambah Buku</h2>
-    <p>YO!</p>
-    <p>Whatsup</p>
+    <h3>Fitur tambah Buku</h3>
 </body>
 </html>
